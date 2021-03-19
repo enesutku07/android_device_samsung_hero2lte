@@ -17,7 +17,8 @@
 
 # Kernel
 TARGET_KERNEL_SOURCE := kernel/samsung/universal8890
-TARGET_KERNEL_CONFIG := exynos8890-hero2lte_defconfig
+#TARGET_KERNEL_CONFIG := exynos8890-hero2lte_hybris_defconfig
+TARGET_KERNEL_CONFIG := exynos8890-hero2lte_halium_defconfig
 
 # Recovery
 TARGET_OTA_ASSERT_DEVICE := hero2ltebmc,hero2lteskt,hero2ltektt,hero2ltelgt,hero2ltexx,hero2lte
